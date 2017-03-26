@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Write Panel</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" >
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport"
+content=" height = device-height,
+        width = device-width,
+        initial-scale = 1.0,
+        minimum-scale = 1.0,
+        maximum-scale = 1.0,
+        user-scalable = no"/>
+<title>Write Canvas</title>
+<link rel='stylesheet' href='write.css' />
+<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+  <div class="wrape">
+    <canvas id="canvas">此浏览器不支持canvas</canvas>
+    <div id="controller">
+      <div id="black" class="color_btn color_btn_selected" name="color_btn"></div>
+      <div id="grey" class="color_btn" name="color_btn"></div>
+      <div id="purple" class="color_btn" name="color_btn"></div>
+      <div id="blue" class="color_btn" name="color_btn"></div>
+      <div id="green" class="color_btn" name="color_btn"></div>
+      <div id="red" class="color_btn" name="color_btn"></div>
+      <div id="pink" class="color_btn" name="color_btn"></div>
+      <div id="yellow" class="color_btn" name="color_btn"></div>
+      <div id="gold" class="color_btn" name="color_btn"></div>
+      <div id="orange" class="color_btn" name="color_btn"></div>
+      <div class="clearfix"></div>
+      <div class="adjust">
+      	笔画粗细：细
+	      <input type="range" name="range" id="myRange" max="35" min="5" value="20">
+	      粗
+	    </div>
+      <div id="clear_btn" class="op_btn">清 除</div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</body>
+</html>
